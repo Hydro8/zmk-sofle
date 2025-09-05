@@ -18,41 +18,41 @@ layers:
   - Q
   - C
   - O
-  - R
-  - T
-  - $$mdi:arrow-down-bold$$
-  - Y
-  - U
-  - I
-  - O
   - P
-  - {t: \, s: '|'}
+  - W
+  - $$mdi:arrow-down-bold$$
+  - J
+  - M
+  - D
+  - O
+  - Y
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - A
   - S
-  - D
+  - E
+  - N
   - F
-  - G
   - $$mdi:arrow-left-bold$$
-  - H
-  - J
-  - K
   - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - R
+  - T
+  - I
+  - U
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
-  - C
+  - '?'
   - V
   - B
   - $$mdi:arrow-right-bold$$
   - N
   - M
+  - G
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - K
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
