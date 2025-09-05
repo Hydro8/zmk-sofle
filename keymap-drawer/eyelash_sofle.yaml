@@ -16,8 +16,8 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
   - Q
-  - W
-  - E
+  - C
+  - O
   - R
   - T
   - $$mdi:arrow-down-bold$$
