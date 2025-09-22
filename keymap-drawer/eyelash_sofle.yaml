@@ -67,10 +67,10 @@ layers:
   - $$mdi:backspace-reverse-outline$$
   layer1:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F2
-  - F3
-  - F4
+  - $$mdi:keyboard-esc$$
+  - KP 7
+  - KP 8
+  - KP 9
   - '*'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
@@ -80,11 +80,11 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-esc$$
-  - KP 7
-  - KP 8
-  - KP 9
-  - {t: '-', s: _}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - KP 4
+  - KP 5
+  - KP 6
+  - C
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - END
@@ -93,10 +93,10 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - KP 4
-  - KP 5
-  - KP 6
+  - F13
+  - KP 1
+  - KP 2
+  - KP 3
   - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
@@ -106,10 +106,10 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - F13
-  - KP 1
-  - KP 2
-  - KP 3
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - KP 0
+  - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
