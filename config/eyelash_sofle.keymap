@@ -56,6 +56,13 @@
             bindings = <&kp F21 &to 1>;
             label = "LAYER1";
         };
+
+        Layer_0: Layer_0 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp F20 &to 0>;
+            label = "LAYER_0";
+        };
     };
 
     keymap {
@@ -80,7 +87,7 @@
 &trans      &kp GRAVE        &kp N7          &kp N8           &kp N9           &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans           &Layer_0         &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
