@@ -84,7 +84,7 @@ layers:
   - KP 4
   - KP 5
   - KP 6
-  - C
+  - KP MINUS
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - END
@@ -110,7 +110,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP 0
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - KP DIVIDE
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
