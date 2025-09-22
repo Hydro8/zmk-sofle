@@ -57,7 +57,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - '&Layer1'
+  - '&ToLayer1'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - PLAY PAUSE
   - $$mdi:keyboard-space$$
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&Layer_0'
+  - '&ToLayer0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
