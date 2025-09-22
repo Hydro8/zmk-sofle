@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - layer1
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - PLAY PAUSE
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer2
