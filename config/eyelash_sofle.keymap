@@ -50,14 +50,14 @@
     };
 
     macros {
-        Layer1: Layer1 {
+        ToLayer1: Layer1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F22 &to 1>;
+            bindings = <&kp F19 &to 1>;
             label = "LAYER1";
         };
 
-        Layer_0: Layer_0 {
+        ToLayer0: Layer_0 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp F20 &to 0>;
@@ -70,11 +70,11 @@
 
         layer0 {
             bindings = <
-&kp ESC           &kp N1     &kp N2        &kp N3        &kp N4   &kp N5       &kp UP_ARROW      &kp A      &kp N7     &kp N8     &kp N9           &kp F13     &kp BACKSPACE
-&kp TAB           &kp Q      &kp W         &kp E         &kp R    &kp T        &kp DOWN_ARROW    &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS          &kp A      &kp S         &kp D         &kp F    &kp G        &kp LEFT_ARROW    &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
-&kp LSHFT         &kp Z      &kp X         &kp C         &kp V    &kp B        &kp RIGHT_ARROW   &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
-&kp C_PLAY_PAUSE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &Layer1  &kp ENTER    &kp K_PLAY_PAUSE  &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
+&kp ESC           &kp N1     &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW      &kp A      &kp N7     &kp N8     &kp N9           &kp F13     &kp BACKSPACE
+&kp TAB           &kp Q      &kp W         &kp E         &kp R      &kp T        &kp DOWN_ARROW    &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
+&kp CAPS          &kp A      &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW    &kp H      &kp J      &kp K      &kp L            &kp SEMI    &kp APOS
+&kp LSHFT         &kp Z      &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW   &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp ENTER
+&kp C_PLAY_PAUSE  &kp LCTRL  &kp LEFT_GUI  &kp LEFT_ALT  &ToLayer1  &kp ENTER    &kp K_PLAY_PAUSE  &kp SPACE  &kp ENTER  &mo 2      &kp RIGHT_SHIFT  &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -87,7 +87,7 @@
 &trans      &kp GRAVE        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS       &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS        &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp SLASH       &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans           &trans           &Layer_0         &kp ENTER       &mkp LCLK        &trans           &trans           &trans      &trans     &trans
+&kp C_MUTE  &trans           &trans           &trans           &ToLayer0        &kp ENTER       &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
             display-name = "layer1";
