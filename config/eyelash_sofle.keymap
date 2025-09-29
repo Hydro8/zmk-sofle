@@ -79,15 +79,6 @@
 
             ignored-key-positions = <1>;
         };
-
-        swapp_app: swapp_app {
-            compatible = "zmk,behavior-tri-state";
-            label = "SWAPP_APP";
-            #binding-cells = <0>;
-            bindings = <&kt LEFT_CTRL>, <&kp TAB>, <&kt LEFT_CTRL>;
-
-            ignored-key-positions = <1>;
-        };
     };
 
     keymap {
@@ -125,7 +116,7 @@
 &trans  &trans  &trans     &trans     &trans     &trans           &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans  &trans  &kp LG(T)  &kp LG(W)  &kp LG(V)  &kp LG(LA(V))    &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans  &trans  &trans     &trans     &trans     &trans           &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans  &trans  &trans     &trans     &trans     &ToLayer0        &swapp_app       &trans  &trans  &trans      &trans     &trans
+&trans  &trans  &trans     &trans     &trans     &ToLayer0        &none            &trans  &trans  &trans      &trans     &trans
             >;
 
             display-name = "layer2";
