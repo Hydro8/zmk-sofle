@@ -49,7 +49,7 @@
         swapper: swapper {
             compatible = "zmk,behavior-tri-state";
             #binding-cells = <0>;
-            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
+            bindings = <&kt LG>, <&kp TAB>, <&kt LG>;
 
             ignored-key-positions = <1>;
         };
