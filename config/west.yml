@@ -12,5 +12,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: dhruvinsh
+      revision: main
   self:
     path: boards
