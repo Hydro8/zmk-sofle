@@ -45,19 +45,6 @@
         flavor = "hold-preferred";
     };
 
-    behaviors {
-        swapper: swapper {
-            compatible = "zmk,behavior-tri-state";
-            #binding-cells = <0>;
-            bindings =
-            bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;
-
-            ;
-
-            ignored-key-positions = <1>;
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
