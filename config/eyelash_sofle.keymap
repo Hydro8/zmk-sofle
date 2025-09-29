@@ -75,8 +75,7 @@
             compatible = "zmk,behavior-tri-state";
             label = "SWAPPER";
             #binding-cells = <0>;
-            bindings = <&kt LSHFT>, <&kp TAB>, <&kt LSHFT>;
-
+            bindings = <&kt LCTRL>, <&kp TAB>, <&kt LCTRL>;
             ignored-key-positions = <1>;
         };
     };
