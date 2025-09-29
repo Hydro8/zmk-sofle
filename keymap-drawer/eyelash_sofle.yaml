@@ -14,7 +14,7 @@ layers:
   - F21
   - F22
   - {t: '$$mdi:backspace$$', type: backspace}
-  - swapapp
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
