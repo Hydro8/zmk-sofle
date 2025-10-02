@@ -79,8 +79,8 @@
 
             ignored-key-positions = <1>;
         };
-    };
-
+    }; 
+    
     keymap {
         compatible = "zmk,keymap";
 
